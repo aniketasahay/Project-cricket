@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bat Ball Stump Game</title>
+  <style>
+    body{
+      text-align: center;
+      border: 10px solid green;
+      height: 300px;
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      /* background-color: brown; */
+      /* -ms-flex-item-align: center; */
+    }
+      #output{
+        text-align: center;
+        border: 5px solid black;
+        color: black;
+       width: 80%;
+       margin: 30px;
+       background-color:aquamarine
+      }
+  </style>
+</head>
+<body>
+  <div class="buttons">
+  <button id="Bat">Bat</button>
+  <button id="Ball">Ball</button>
+  <button id="Stump">Stump</button>  
+  <style>
+    .buttons{
+      padding: 30px;
+      margin: 30px;
+      background-color: brown;
+    }
+  </style>
+
+  </div>
+  <div id="output"> 
+    Victory or Defeat? 
+    <br>
+  </div>
+  <div id="reload"> 
+    <button onclick="location.reload()">Next Match</button>
+  </div>
+  <script src = "cricket.js"></script>
+</body>
+</html>
